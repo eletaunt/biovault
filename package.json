@@ -1,0 +1,25 @@
+{
+  "name": "graphql-yoga-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build.dev": "webpack --config webpack.config.js --mode=development",
+    "build.prod": "webpack --config webpack.config.js --mode=production",
+    "start": "node ./dist/app.js",
+    "start.dev": "npm run-script build.dev && npm run-script start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.14.10"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.4.2",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
