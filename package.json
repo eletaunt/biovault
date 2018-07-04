@@ -1,15 +1,15 @@
 {
-  "name": "graphql-yoga-demo",
+  "name": "biovault",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build.dev": "webpack --config webpack.config.js --mode=development",
     "build.prod": "webpack --config webpack.config.js --mode=production",
     "start": "node ./dist/app.js",
     "start.dev": "npm run-script build.dev && npm run-script start"
   },
-  "author": "",
+  "author": "eletaunt",
   "license": "ISC",
   "dependencies": {
     "graphql-yoga": "^1.14.10"
